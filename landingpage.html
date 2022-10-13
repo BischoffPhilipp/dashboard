@@ -64,7 +64,7 @@
         <div class="navbar-nav flex-row order-md-last">
           <div class="nav-item d-none d-md-flex me-3">
             <div class="btn-list">
-              <a href="https://github.com/tabler/tabler" class="btn" target="_blank" rel="noreferrer">
+              <a href="https://github.com/BischoffPhilipp/dashboard/" class="btn" target="_blank" rel="noreferrer">
 
 
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon text-github" width="24" height="24"
@@ -152,7 +152,7 @@
                   </span>
                 </a>
               </li>
-   
+
 
 
 
@@ -204,13 +204,13 @@
       <div class="page-body">
         <div class="container-xl">
           <div class="row row-deck row-cards">
-        
-                
+
+
             <div class="col-sm-6 col-lg-3">
               <div class="card">
                 <div class="card-body">
-                 
-                    <div class="subheader text-center">Rejection Rate
+
+                  <div class="subheader text-center">Rejection Rate
                     <br><br><br><br>
                     <input id="knobChart2" value="90" data-linecap="round" />
                   </div>
@@ -271,7 +271,7 @@
 
 
               </div>
-            
+
             </div>
 
             <div class="col-sm-6 col-lg-3">
@@ -301,7 +301,7 @@
                   </div>
                   <br><br>
 
-                  <div class="text-center h1 m-0">25 Days</div>
+                  <div class="text-center h1 m-0">4 Days</div>
                 </div>
               </div>
             </div>
@@ -309,10 +309,21 @@
             <div class="col-sm-6 col-lg-3">
               <div class="card">
                 <div class="card-body">
+
                   <div class="d-flex align-items-center">
                     <div class="subheader">Cost per Hire</div>
                     <div class="ms-auto lh-1">
+                      <span class="text-green d-inline-flex align-items-center lh-1">
+                        300$
 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24"
+                          viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                          stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <polyline points="3 17 9 11 13 15 21 7" />
+                          <polyline points="14 7 21 7 21 14" />
+                        </svg>
+                      </span>
                     </div>
                   </div>
                   <br> <br>
@@ -321,16 +332,29 @@
 
               </div>
             </div>
-         
 
-        
+
+
             <div class="col-sm-6 col-lg-3">
               <div class="card">
                 <div class="card-body">
+
                   <div class="d-flex align-items-center">
                     <div class="subheader">Cost-of-Vacancy</div>
                     <div class="ms-auto lh-1">
+                      <div class="text-end text-red">
+                        <span class="text-red d-inline-flex align-items-center lh-1">
+                          -7$
 
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <polyline points="3 7 9 13 13 9 21 17" />
+                            <polyline points="21 10 21 17 14 17" />
+                          </svg>
+                        </span>
+                      </div>
                     </div>
                   </div>
                   <br> <br>
@@ -339,7 +363,7 @@
 
               </div>
             </div>
-     
+
 
 
 
@@ -348,13 +372,14 @@
                 <div class="col-12">
                   <div class="card">
                     <div class="card-body">
-                      <h3 class="card-title">Job Count Map</h3>
-                      <div id="chart_div" style="width: 900px; height: 500px;"></div>
+                      <br>
+                      <h3 class="card-title text-center">Job Count Map</h3>
+                      <div id="chart_div" style="width: 600px; height: 500px;"></div>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body p-2 text-center">
                       <div class="text-end text-green">
@@ -375,7 +400,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body p-2 text-center">
                       <div class="text-end text-red">
@@ -401,123 +426,111 @@
             </div>
 
             <div class="col-lg-6">
+
+
               <div class="card">
-                <div class="card-header border-0">
-                  <div class="card-title">Job Count Top 10 Cities </div>
-                </div>
-                <div class="position-relative">
-                  <div class="position-absolute top-0 left-0 px-3 mt-1 w-75">
-                    <div class="row g-2">
-
-                      <div class="col">
-                        <div>Today's Earning: $4,262.40</div>
-                        <div class="text-muted">
-
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-inline text-green" width="24"
-                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <polyline points="3 17 9 11 13 15 21 7" />
-                            <polyline points="14 7 21 7 21 14" />
-                          </svg>
-                          +5% more than yesterday
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="card">
+                <br>
+                <div class="card-body">
+                  <h3 class="card-title text-center">Job Count Cities</h3>
+                  <br><br><br>
                   <div class="table-responsive">
                     <table class="table table-vcenter card-table">
                       <thead>
                         <tr>
                           <th>City</th>
                           <th>Count</th>
-                          <th>Avg Salary</th>
+                          <th class="text-center">Avg Salary</th>
                           <th class="w-1"></th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Paweł Kuna</td>
+                          <td>Karlsruhe</td>
                           <td class="text-muted">
-                            UI Designer, Training
+                            63
                           </td>
-                          <td class="text-muted"><a href="#" class="text-reset">paweluna@howstuffworks.com</a></td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
 
 
                         </tr>
                         <tr>
-                          <td>Jeffie Lewzey</td>
+                          <td>München</td>
                           <td class="text-muted">
-                            Chemical Engineer, Support
+                            33
                           </td>
-                          <td class="text-muted"><a href="#" class="text-reset">jlewzey1@seesaa.net</a></td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
 
 
                         </tr>
                         <tr>
-                          <td>Mallory Hulme</td>
+                          <td>Berlin</td>
                           <td class="text-muted">
-                            Geologist IV, Support
+                            31
                           </td>
-                          <td class="text-muted"><a href="#" class="text-reset">mhulme2@domainmarket.com</a></td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
 
 
                         </tr>
                         <tr>
-                          <td>Dunn Slane</td>
+                          <td>Mannheim</td>
                           <td class="text-muted">
-                            Research Nurse, Sales
+                            17
                           </td>
-                          <td class="text-muted"><a href="#" class="text-reset">dslane3@epa.gov</a></td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
 
 
                         </tr>
                         <tr>
-                          <td>Emmy Levet</td>
+                          <td>Dresden</td>
                           <td class="text-muted">
-                            VP Product Management, Accounting
+                            16
                           </td>
-                          <td class="text-muted"><a href="#" class="text-reset">elevet4@senate.gov</a></td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
 
 
                         </tr>
                         <tr>
-                          <td>Paweł Kuna</td>
+                          <td>Stuttgart</td>
                           <td class="text-muted">
-                            UI Designer, Training
+                            15
                           </td>
-                          <td class="text-muted"><a href="#" class="text-reset">paweluna@howstuffworks.com</a></td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
 
 
                         </tr>
                         <tr>
-                          <td>Jeffie Lewzey</td>
+                          <td>Leipzig</td>
                           <td class="text-muted">
-                            Chemical Engineer, Support
+                            12
                           </td>
-                          <td class="text-muted"><a href="#" class="text-reset">jlewzey1@seesaa.net</a></td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
 
 
                         </tr>
                         <tr>
-                          <td>Mallory Hulme</td>
+                          <td>Frankfurt am Main</td>
                           <td class="text-muted">
-                            Geologist IV, Support
+                            8
                           </td>
-                          <td class="text-muted"><a href="#" class="text-reset">mhulme2@domainmarket.com</a></td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
 
 
                         </tr>
                         <tr>
-                          <td>Dunn Slane</td>
+                          <td>Bielefeld</td>
                           <td class="text-muted">
-                            Research Nurse, Sales
+                            7
                           </td>
-                          <td class="text-muted"><a href="#" class="text-reset">dslane3@epa.gov</a></td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
+
+
+                        </tr>
+                        <tr>
+                          <td>Paderborn</td>
+                          <td class="text-muted">
+                            7
+                          </td>
+                          <td class="text-muted text-center"><a href="#" class="text-reset">tbd</a></td>
 
 
                         </tr>
@@ -527,35 +540,36 @@
                     </table>
                   </div>
                 </div>
-
               </div>
+
             </div>
+          </div>
 
 
-         </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="footer footer-transparent d-print-none">
+      <div class="container-xl">
+        <div class="row text-center align-items-center flex-row-reverse">
+          <div class="col-lg-auto ms-lg-auto">
+            <ul class="list-inline list-inline-dots mb-0">
+
+              <li class="list-inline-item"><a href="./license.html" class="link-secondary">License</a></li>
+              <li class="list-inline-item"><a href="https://github.com/BischoffPhilipp/dashboard/" target="_blank"
+                  class="link-secondary" rel="noopener">Source code</a></li>
+              <li class="list-inline-item">
+
+              </li>
+            </ul>
+          </div>
 
         </div>
       </div>
-
-      <footer class="footer footer-transparent d-print-none">
-        <div class="container-xl">
-          <div class="row text-center align-items-center flex-row-reverse">
-            <div class="col-lg-auto ms-lg-auto">
-              <ul class="list-inline list-inline-dots mb-0">
-
-                <li class="list-inline-item"><a href="./license.html" class="link-secondary">License</a></li>
-                <li class="list-inline-item"><a href="https://github.com/tabler/tabler" target="_blank"
-                    class="link-secondary" rel="noopener">Source code</a></li>
-                <li class="list-inline-item">
-
-                </li>
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </footer>
-    </div>
+    </footer>
+  </div>
   </div>
 
 
